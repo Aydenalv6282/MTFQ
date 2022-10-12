@@ -15,7 +15,7 @@ subject = "Text Here"
 message = ('Subject:{}\n\n'+text).format(subject)
 
 # sending the mail
-for i in range(999):
+for i in range(1000):
     mid = "%03d" % i
     number = "305"+mid+"8349"
     print(number)
